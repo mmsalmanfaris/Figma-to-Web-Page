@@ -42,7 +42,7 @@ h2 {
 
 .hero-section {
     display: flex;
-    max-width: 1440px;
+    max-width: 1060px;
     margin: 0 auto 48px auto;
 }
 
@@ -57,6 +57,8 @@ h2 {
 
 .hero-image {
     width: 100%;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
 }
 
 .small-text {
@@ -222,4 +224,22 @@ h2 {
 .card-2 .price-button:hover {
     background-color: white;
     color: black;
+}
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.checkbox {
+    height: 16px;
+    width: 16px;
+    margin-bottom: -4px;
+    opacity: 0.6;
 }
